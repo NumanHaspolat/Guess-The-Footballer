@@ -1,0 +1,114 @@
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: monospace;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: aqua;
+  padding: 1.3rem;
+  border-radius: 0.7rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+input {
+  border: none;
+  outline: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 0.2rem;
+  padding: 0.4rem;
+  color: darkcyan;
+}
+
+button {
+  padding: 0.4rem;
+  border-radius: 0.5rem;
+  border: none;
+  border-bottom: 2px solid darkcyan;
+  border-right: 1px solid darkcyan;
+  background-color: rgb(204, 252, 253);
+  color: darkcyan;
+  transition: 0.2s;
+}
+
+button:active {
+  transform: translateY(2px);
+}
+
+.position {
+  background-color: darkcyan;
+  color: aliceblue;
+  padding: 0.4rem;
+  width: fit-content;
+  margin: 1rem auto;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.team {
+  background-color: darkcyan;
+  color: aliceblue;
+  width: fit-content;
+  margin: auto;
+  padding: 0.4rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.result {
+  background-color: rgb(46, 255, 46);
+  padding: 0rem 1rem;
+  border-radius: 1rem;
+  display: none;
+  padding-bottom: 0.4rem;
+}
+
+.player {
+  display: none;
+}
+
+.flex {
+  display: flex !important;
+  flex-direction: column;
+}
+
+.player-name {
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.lives {
+  margin-top: 0rem;
+  font-size: 1.1rem;
+}
+
+i {
+  color: rgb(197, 2, 2);
+  font-size: 1rem;
+}
+
+.red {
+  background-color: rgb(255, 82, 82);
+}
+
+.retry {
+  background-color: rgb(248, 179, 179);
+  color: black;
+  border: none;
+}
+
+.flex2 {
+  display: flex;
+}
+
+
+.green{
+  background-color: rgb(195, 252, 195);
+}
